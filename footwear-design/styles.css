@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background-color: #cb021c;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  transition: background 0.4s ease-in-out;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  font-size: 3rem;
+}
+
+.phone {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 3rem;
+}
+
+.logo {
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.logo i {
+  font-size: 3rem;
+}
+
+.logo h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.logo p {
+  margin: 0;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  height: 80vw;
+  width: 100vw;
+  margin-top: 7rem;
+}
+
+.carousel {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(0);
+  transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+  width: 100vw;
+  text-align: center;
+  height: 60vh;
+}
+
+.slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.slide h1 {
+  color: white;
+  font-size: 4rem;
+  margin-top: -2rem;
+}
+
+.slide a {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.arrow {
+  background-color: transparent;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+  color: black;
+  opacity: 0.5;
+  border: 0;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #30020e;
+}
+
+.left-arrow {
+  left: 2rem;
+}
+
+.right-arrow {
+  right: 2rem;
+}/*# sourceMappingURL=styles.css.map */
